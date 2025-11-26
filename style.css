@@ -99,6 +99,16 @@ section:hover {
     box-shadow: 0 2px 20px rgba(0,0,0,0.1);
     border-radius: 8px;
 }
+.hero img {
+    background-image: url('image/_MG_0243.jpg');
+    padding: 25px 20px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0;
+    background-size: cover;
+    background-position: center;
+}
+
 .hero h1{
     color: aliceblue;
     text-align: center;
@@ -112,15 +122,6 @@ section:hover {
     text-shadow: 2px 2px 4px #000;
 }
 
-.hero{
-    background-image: url('image/_MG_0243.jpg');
-    padding: 25px 20px;
-    position: relative;
-    overflow: hidden;
-    border-radius: 0;
-    background-size: cover;
-    background-position: center;
-}
 .hero:hover {
     transform: scale(0.99);
     border-radius: 15px; 
@@ -395,5 +396,6 @@ gap: 10px;
 .contact-list li a i{
     font-size: 1.5em;
 }
+
 
 
