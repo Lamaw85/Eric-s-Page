@@ -102,7 +102,7 @@ section{
 
 
 .hero{
-    background-image: url('image/_MG_0243.jpg');
+    background-image: url('/image/_MG_0243.jpg');
     padding: 25px 20px;
     position: relative;
     overflow: hidden;
@@ -444,4 +444,5 @@ gap: 10px;
 .contact-list li a i{
     font-size: 1.5em;
 }
+
 
