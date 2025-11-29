@@ -167,7 +167,7 @@ section{
   display: flex; 
   width: 100%; 
   height: 100%;
-  animation: slide 24s infinite linear; 
+  animation: slide 104s infinite linear;
   object-fit: cover;
 }
 
@@ -176,49 +176,52 @@ section{
   height: 100%;
   flex-shrink: 0;
   object-fit: cover; 
+  transition: transform 0.5s ease-in-out;
 }
 
 @keyframes slide {
   
-    0% { transform: translateX(0%); }
-    10.42% { transform: translateX(0%); } 
+    0% { transform: translateX(0%); } 
+    7.2115% { transform: translateX(0%); } 
 
+    7.6923% { transform: translateX(-100%); } 
+    14.9038% { transform: translateX(-100%); }
 
-    12.5% { transform: translateX(-100%); }
-    22.92% { transform: translateX(-100%); } 
+    15.3846% { transform: translateX(-200%); } 
+    22.5961% { transform: translateX(-200%); } 
 
+    23.0769% { transform: translateX(-300%); } 
+    30.2884% { transform: translateX(-300%); } 
 
-    25% { transform: translateX(-200%); }
-    35.42% { transform: translateX(-200%); } 
+    30.7692% { transform: translateX(-400%); } 
+    37.9807% { transform: translateX(-400%); } 
+
+    38.4615% { transform: translateX(-500%); } 
+    45.6730% { transform: translateX(-500%); } 
     
-   
-    37.5% { transform: translateX(-300%); }
-    47.92% { transform: translateX(-300%); } 
+    46.1538% { transform: translateX(-600%); } 
+    53.3653% { transform: translateX(-600%); } 
 
+    53.8461% { transform: translateX(-700%); } 
+    61.0576% { transform: translateX(-700%); }
 
-    50% { transform: translateX(-400%); }
-    60.42% { transform: translateX(-400%); } 
+    61.5384% { transform: translateX(-800%); }
+    68.7500% { transform: translateX(-800%); } 
+            
+    69.2307% { transform: translateX(-900%); }
+    76.4422% { transform: translateX(-900%); } 
 
+    76.9230% { transform: translateX(-1000%); }
+    84.1345% { transform: translateX(-1000%); } 
 
-    62.5% { transform: translateX(-500%); }
-    72.92% { transform: translateX(-500%); }
+    84.6153% { transform: translateX(-1100%); }
+    91.8268% { transform: translateX(-1100%); } 
 
+    92.3076% { transform: translateX(-1200%); }
+    99.5191% { transform: translateX(-1200%); } 
 
-    75% { transform: translateX(-600%); }
-    85.42% { transform: translateX(-600%); }
-
-
-    87.5% { transform: translateX(-700%); }
-    97.92% { transform: translateX(-700%); }
-    
-
-    98% { transform: translateX(-800%); }
-    100% { transform: translateX(-800%); }
+    100% { transform: translateX(0%); }
 }
-
-
-
-
 
 
 .photoportfolio {
@@ -462,6 +465,7 @@ gap: 10px;
 .contact-list li a i{
     font-size: 1.5em;
 }
+
 
 
 
